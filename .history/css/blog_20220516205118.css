@@ -145,12 +145,10 @@ p {
     color: blue;
   }
   .d-nav {
-    display: block;
     position: absolute;
     height: 100vh;
     width: 100%;
     left: -100%;
-    top: 0;
     background: #eee;
     transition: 0.7s;
     text-align: center;

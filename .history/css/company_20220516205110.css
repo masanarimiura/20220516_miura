@@ -66,29 +66,20 @@ p {
   color: #fff;
 }
 
-.blog {
-  margin-top: 80px;
+.bg-table {
 }
-.blog__ttl {
-  text-align: center;
+.table {
+  margin: 80px auto 0;
+  width: 80%;
 }
-.blog__inner {
-  display: flex;
-  justify-content: center;
+tr {
+  border-top: #000 1px solid;
 }
-.blog__box {
-  width: 30%;
-  margin: 20px 5px;
+.tr-last {
+  border-bottom: #000 1px solid;
 }
-.blog__box img {
-  width: 100%;
-}
-.blog__txt {
-  font-weight: bold;
-  font-size: 20px;
-}
-.blog__link {
-  margin: 40px auto 0;
+th {
+  padding: 25px 0;
 }
 
 .contact {
@@ -145,12 +136,10 @@ p {
     color: blue;
   }
   .d-nav {
-    display: block;
     position: absolute;
     height: 100vh;
     width: 100%;
     left: -100%;
-    top: 0;
     background: #eee;
     transition: 0.7s;
     text-align: center;
@@ -212,21 +201,5 @@ p {
   }
   .footer__nav__item {
     border: none;
-  }
-
-  .blog {
-    margin: 80px 5% 0;
-  }
-  .blog__inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .blog__box {
-    width: 90%;
-    margin: 20px;
-  }
-  .blog__box img {
-    width: 100%;
   }
 }

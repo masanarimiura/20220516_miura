@@ -24,6 +24,7 @@ p {
   padding: 12px;
 }
 
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -66,29 +67,28 @@ p {
   color: #fff;
 }
 
-.blog {
-  margin-top: 80px;
+.info {
+  margin: 80px 120px;
 }
-.blog__ttl {
-  text-align: center;
+.info__ttl-ttl {
+  font-size: 26px;
+  line-height: 1.5;
+  border-bottom: #000 1px solid;
 }
-.blog__inner {
-  display: flex;
-  justify-content: center;
+.info__ttl-txt {
+  padding: 24px 0;
 }
-.blog__box {
-  width: 30%;
-  margin: 20px 5px;
-}
-.blog__box img {
+.info__table {
+  border-collapse: collapse;
   width: 100%;
 }
-.blog__txt {
-  font-weight: bold;
-  font-size: 20px;
+.info__table th {
+  padding: 15px 20px;
+  border: #000 1px solid;
 }
-.blog__link {
-  margin: 40px auto 0;
+.info__table td {
+  padding: 15px 20px;
+  border: #000 1px solid;
 }
 
 .contact {
@@ -145,12 +145,10 @@ p {
     color: blue;
   }
   .d-nav {
-    display: block;
     position: absolute;
     height: 100vh;
     width: 100%;
     left: -100%;
-    top: 0;
     background: #eee;
     transition: 0.7s;
     text-align: center;
@@ -212,21 +210,5 @@ p {
   }
   .footer__nav__item {
     border: none;
-  }
-
-  .blog {
-    margin: 80px 5% 0;
-  }
-  .blog__inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .blog__box {
-    width: 90%;
-    margin: 20px;
-  }
-  .blog__box img {
-    width: 100%;
   }
 }
