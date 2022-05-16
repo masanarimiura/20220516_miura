@@ -1,0 +1,112 @@
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+p {
+  line-height: 1.5;
+}
+button {
+  border: none;
+  background-color: rgb(160, 5, 5);
+  width: 350px;
+  padding: 12px;
+  position: relative;
+  ぇ
+}
+button a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 30px;
+}
+.header__nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header__nav ul li {
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.header__nav ul li a {
+  color: #000;
+}
+
+.eyecatch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(../img/mv.png) center/ cover;
+  height: 80vh;
+}
+.eyecatch__content {
+  color: #fff;
+}
+.eyecatch__content__ttl {
+  font-size: 50px;
+  padding: 20px;
+  line-height: 1.5;
+}
+.eyecatch__content__txt {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.message {
+  background: #000;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message__inner {
+  padding: 50px 80px;
+}
+.message__ttl {
+  color: #fff;
+}
+.message__txt {
+  color: #fff;
+  line-height: 2;
+  text-align: justify;
+  padding: 20px 0 0;
+}
+
+.service {
+  margin-top: 100px;
+}
+.service__ttl {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.service__inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service__box {
+  width: 45%;
+  height: 40vh;
+  padding: 1%;
+  margin-bottom: 5vh;
+}
+.service__box img {
+  width: 100%;
+}

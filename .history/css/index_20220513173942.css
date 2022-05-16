@@ -1,0 +1,14 @@
+h2 {
+  font-size: 24px;
+  font-size;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 30px;
+}
+.header__nav ul {
+  display: flex;
+  justify-content: space-between;
+}
